@@ -1,5 +1,6 @@
 //On déclare une constante "tf", et on précise qu'elle nécessite le module TensforFlow.js
 const tf = require('@tensorflow/tfjs');
+require('@tensorflow/tfjs-node');
 
 // On déclare une variable "xs" qui contient les inputs
 const xs = tf.tensor([
@@ -70,5 +71,7 @@ const ys = tf.tensor([
     */  
    
   });
+
+  model.save('file://./model-1a');
 
   

@@ -11,6 +11,8 @@
   "license": "ISC",
   "dependencies": {
     "@tensorflow/tfjs": "^3.12.0",
-    "@tensorflow/tfjs-vis": "^1.5.1"
+    "@tensorflow/tfjs-node": "^3.12.0",
+    "@tensorflow/tfjs-vis": "^1.5.1",
+    "tfjs-node-save": "0.0.2"
   }
 }
